@@ -54,8 +54,7 @@ DNS = {'settings':'selenium',
              ('Наличие', 'a', {'class':'avail-text__link'}),
              ('Descr', 'div', {'itemprop':'description'}))}
 
-MVIDEO = {'settings':'selenium',
-            'fields':
+MVIDEO = {'fields':
             (('Название', 'h1', {'class':'fl-h1'}),
             ('Цена', 'div', {'class':'fl-pdp-price__current'}),
             ('Наличие', 'div', {'class':'c-delivery__text'}),
